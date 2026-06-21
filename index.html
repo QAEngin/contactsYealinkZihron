@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZihronYakov Contact List Download</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>ZihronYakov Contact List Download</h1>
+        <p>Click below to download your latest contacts file.</p>
+
+        <button class="download-btn" onclick="openURL()">
+            Download Contacts
+        </button>
+
+        <div class="url-box">
+            <span class="copy-link" id="fileUrl" onclick="openURL()">
+                https://raw.githubusercontent.com/QAEngin/contactsYealinkZihron/main/Yealink_Zihron.html
+            </span>
+            <button class="copy-btn" onclick="copyToClipboard()">Copy</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
